@@ -1,0 +1,8 @@
+.pnpm-store
+
+root/dist
+root/node_modules
+
+products/dist
+products/node_modules
+
