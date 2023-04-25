@@ -12,6 +12,7 @@ module.exports = {
     'react-refresh/only-export-components': 'warn',
     'semi': 'error',
   },
+  ignorePatterns: ["*.cjs", "*.config.js"],
   overrides: [
     {
       files: ['**/*.cjs'],
