@@ -9,6 +9,8 @@ const origin = `http://localhost:${port}`;
 export default defineConfig({
   build: {
     target: "esnext",
+    minify: false, 
+    cssCodeSplit: false
   },
   preview: { port },
   server: {
