@@ -1,0 +1,9 @@
+.open {
+    transition: width 0.2s ease-in-out;
+    @apply w-72 #{!important};
+}
+
+.drawer {
+    @apply absolute right-0 h-screen top-0 bg-red-800 w-0;
+    transition: width 0.2s ease-in-out;
+}
